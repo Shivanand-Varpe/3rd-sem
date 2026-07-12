@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
 int n,i,found=0,key;
 printf("Enter array size :");
 scanf("%d",&n);
@@ -17,4 +17,5 @@ for(i=0;i<n;i++){
         found=1; break;}}
 if(found==0){
     printf("Element Not Found!");}
+return 0;
 }
