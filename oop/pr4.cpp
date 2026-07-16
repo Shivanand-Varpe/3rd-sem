@@ -27,11 +27,9 @@ public:
         cout << "Marks :" << marks << endl;}};
 int main() {
     cout << "Enter the Following Details" << endl;
-    student s1, s2;
-    s1.accept();
-    s2.accept();
-    cout << "\nDetails of Student 1" << endl;
-    s1.display();
-    cout << "\nDetails of Student 2" << endl;
-    s2.display();
-    return 0;}
+    student s1,s2,s3;
+        s1.accept();
+        cout << "\nDetails of Student "<< endl;
+        s1.display();
+        return 0;
+    }
