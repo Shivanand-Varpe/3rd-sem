@@ -3,7 +3,7 @@
         
 
         {
-            "name": "C/C++: g++.exe build and debug active file",
+            "name": "C++: Build and debug active file (g++)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -29,7 +29,7 @@
             "preLaunchTask": "C/C++: g++.exe build active file"
         },
         {
-            "name": "C/C++: gcc.exe build and debug active file",
+            "name": "C: Build and debug active file (gcc)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
