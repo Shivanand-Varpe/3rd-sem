@@ -1,0 +1,28 @@
+# Compiled binaries and executables
+*.exe
+*.obj
+*.o
+*.out
+
+# Turbo C / DOS temporary & backup files
+*.BAK
+*.bak
+*.DSK
+*.dsk
+*.SWP
+*.swp
+
+# Log and output files
+stdout.txt
+stderr.txt
+*.log
+
+# Databases & data
+*.db
+*.sqlite
+*.sqlite3
+
+# OS & Editor files
+.idea/
+Thumbs.db
+.DS_Store
